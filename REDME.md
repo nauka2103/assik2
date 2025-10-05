@@ -118,7 +118,8 @@ Performance data from `minheap-results.csv` is visualized in:
 * **comparisons-vs-swaps.png** – shows correlation of operations
 
 Example :
-![img.png](img.png)
+![img.png](<img width="361" height="217" alt="image" src="https://github.com/user-attachments/assets/7218fbac-27ca-419a-9ffd-b9c8a119e434" />
+)
 
 
 ---
