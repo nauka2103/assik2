@@ -10,14 +10,13 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <!-- ✅ Твоя версия Java -->
+        
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
-        <!-- ✅ JUnit 5 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -40,7 +39,6 @@
 
     <build>
         <plugins>
-            <!-- ✅ Компилятор -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -50,7 +48,6 @@
                 </configuration>
             </plugin>
 
-            <!-- ✅ Плагин для тестов (JUnit 5 поддерживается с 3.0.0+) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
